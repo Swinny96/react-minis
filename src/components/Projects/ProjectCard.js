@@ -7,7 +7,7 @@ const Project = props => (
       <Title href={props.link} target="_blank" rel="noreferrer">
         {props.title}
       </Title>
-      <Text>{props.text}</Text>
+      <Text>{props.text}.</Text>
       <Text>{props.para2}</Text>
       <Status>{props.status}</Status>
       <Date>{props.date}</Date>

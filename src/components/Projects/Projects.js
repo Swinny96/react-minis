@@ -31,7 +31,7 @@ const Projects = ({ siteTitle }) => (
     />
     <Project
       title="Design + Code 4"
-      text="This site was created by myself when following a React Totorial from MengTo the creator of Design + Code."
+      text="This site was created by myself when following a React Totorial from MengTo the creator of Design + Code"
       date="December 2020"
       link="https://designcode4project.netlify.app/"
       image={DesignCode}
