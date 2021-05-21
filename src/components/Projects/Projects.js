@@ -15,14 +15,14 @@ const Projects = ({ siteTitle }) => (
       id2="BB82"
       image={BB8}
     />
-    <Project
+    {/* <Project
       title="Academic School Search"
-      text="As part of a tasl for Leeds Beckett I was asked to create an Academic Search"
+      text="As part of a task for Leeds Beckett I was asked to create an Academic Search, this is still an earyly prototybe so this is not in full production as of yet"
       date="March 2021"
       link="https://academic-search-lbu.netlify.app/"
       id="Academic"
       emoji="🔍"
-    />
+    /> */}
     <Project
       title="Open Weather Map"
       text="I created this weather app that allows the user to search location that's fed to an API that fetches the data on the locations weather"
