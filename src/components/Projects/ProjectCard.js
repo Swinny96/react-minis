@@ -71,7 +71,7 @@ const ProjectObject = styled.div`
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
   .Project-Card:hover {
-    box-shadow: 0 10px 20px rgb(97, 219, 251, 0.6) !important;
+    box-shadow: 0 10px 20px rgb(97, 219, 251, 0.6);
   }
 
   .Project-Card:hover img {
@@ -117,7 +117,8 @@ const Title = styled.a`
 const Text = styled.p``
 const Status = styled.em``
 const Date = styled.p``
-const ProjectImage = styled.img``
+const ProjectImage = styled.img`
+`
 const ProjectAltImage = styled.span`
   font-size: 200px;
   transition: 0.3s;

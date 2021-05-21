@@ -2,9 +2,27 @@ import React from "react"
 import styled from "styled-components"
 import Project from "./ProjectCard"
 import DesignCode from "../layout/images/logos/logo.svg"
+import BB8 from "../layout/images/covers/BB8.png"
 
 const Projects = ({ siteTitle }) => (
   <ProjectGroup>
+    <Project
+      title="BB8"
+      text="This is a small app that renders BB8 which you can move by moving your mouse around the screen *Desktop Only*"
+      date="May 2021"
+      link="https://bb8.netlify.app/"
+      id="BB8"
+      id2="BB82"
+      image={BB8}
+    />
+    <Project
+      title="Academic School Search"
+      text="As part of a tasl for Leeds Beckett I was asked to create an Academic Search"
+      date="March 2021"
+      link="https://academic-search-lbu.netlify.app/"
+      id="Academic"
+      emoji="🔍"
+    />
     <Project
       title="Open Weather Map"
       text="I created this weather app that allows the user to search location that's fed to an API that fetches the data on the locations weather"

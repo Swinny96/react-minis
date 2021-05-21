@@ -33,13 +33,26 @@ a {
   border-color: #e5a7e0;
 }
 
+#DesignCode2 {
+  max-height: 260px;
+  height: 100%;
+}
 #Weather {
   background: url("./images/backgrounds/background.jpg");
   background-size: cover;
   border-color: #00bfff;
 }
 
-#DesignCode2 {
+#Academic {
+  background-color: #fff;
+  border-color: #763cbe;
+}
+
+#BB8 {
+  background-color: #fff;
+  border-color: #cd7640;
+}
+
+#BB82 {
   max-height: 260px;
-  height: 100%;
 }
