@@ -3,9 +3,19 @@ import styled from "styled-components"
 import Project from "./ProjectCard"
 import DesignCode from "../layout/images/logos/logo.svg"
 import BB8 from "../layout/images/covers/BB8.png"
+import TicTacToe from "../layout/images/covers/TicTacToe.png"
 
 const Projects = ({ siteTitle }) => (
   <ProjectGroup>
+    <Project
+      title="Tic Tac Toe"
+      text="This a copy of the game Tic Tac Toe that has been recreated as a React App"
+      date="June 2021"
+      link="https://bb8.netlify.app/"
+      id="TicTacToe"
+      id2="TicTacToe2"
+      image={TicTacToe}
+    />
     <Project
       title="BB8"
       text="This is a small app that renders BB8 which you can move by moving your mouse around the screen *Desktop Only*"
