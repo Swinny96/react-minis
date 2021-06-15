@@ -62,3 +62,12 @@ a {
 #TicTacToe2 {
   max-height: 180px;
 }
+
+#Calculator {
+  background: #fff;
+  border-color: #fe9241;
+}
+
+#Calculator2 {
+  max-height: 240px;
+}

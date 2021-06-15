@@ -4,14 +4,24 @@ import Project from "./ProjectCard"
 import DesignCode from "../layout/images/logos/logo.svg"
 import BB8 from "../layout/images/covers/BB8.png"
 import TicTacToe from "../layout/images/covers/TicTacToe.png"
+import Calculator from "../layout/images/covers/Calculator.png"
 
 const Projects = ({ siteTitle }) => (
   <ProjectGroup>
     <Project
-      title="Tic Tac Toe"
-      text="This a copy of the game Tic Tac Toe that has been recreated as a React App"
+      title="Calculator"
+      text="This a Calculator that I have created in React"
       date="June 2021"
-      link="https://bb8.netlify.app/"
+      link="https://calculator-cswinton.netlify.app/"
+      id="Calculator"
+      id2="Calculator2"
+      image={Calculator}
+    />
+    <Project
+      title="Tic Tac Toe"
+      text="This a copy of the game Tic Tac Toe that has been created as a React App"
+      date="June 2021"
+      link="https://tic-tac-toe-cswinton.netlify.app/"
       id="TicTacToe"
       id2="TicTacToe2"
       image={TicTacToe}
